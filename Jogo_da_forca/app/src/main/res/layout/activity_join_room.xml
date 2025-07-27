@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#2F2F41">
+
+    <!-- Title at the top middle -->
+
+    <!-- EditText for room ID -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Join a Room"
+        android:fontFamily="@font/mainfont"
+        android:textColor="#AEB1AD"
+        android:textSize="34sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/mainfont"
+        android:text="To join a room, enter the room ID below."
+        android:textColor="#AEB1AD"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/roomIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room ID"
+        android:layout_marginBottom="24dp"
+        android:inputType="textNoSuggestions"
+        android:fontFamily="@font/mainfont"
+        android:backgroundTint="#AEB1AD"
+        android:textColorHint ="#AEB1AD"
+        android:textColor ="#AEB1AD"
+        />
+
+    <!-- Button to join the room -->
+    <Button
+        android:id="@+id/joinRoomButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:color="#AEB1AD"
+        android:fontFamily="@font/mainfont"
+        android:text="Enter a Room"
+        android:textColor="#AEB1AD" />
+</LinearLayout>
